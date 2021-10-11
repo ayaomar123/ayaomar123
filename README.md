@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-**ayaomar123/ayaomar123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Aya Al Rahman** is a ✨ _special_ ✨ person.
 
 Here are some ideas to get you started:
 
