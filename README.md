@@ -13,8 +13,8 @@ Here are some ideas to get you started:
 - 😄 I worked in many local companies as Backend Laravel Developer.
 - 💬 Ask me about what you need.
 - 📫 How to reach me:
-    - 🔭 <a href="https://www.youtube.com/watch?v=e55y_rUZvac" target="_blank">Whatsapp</a>
-- ⚡ Fun fact: ...
+    - <a href="https://linktr.ee/AyaOmar" target="_blank">Linktree</a>
+<!-- - ⚡ Fun fact: ... -->
 
 Github State
 
