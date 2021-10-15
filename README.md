@@ -22,3 +22,5 @@ Here are some ideas to get you started:
 
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ayaomar123.ayaomar123
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=ayaomar123.visitor-badge&left_color=red&right_color=green) 
