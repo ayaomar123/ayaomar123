@@ -6,7 +6,7 @@
 
 **I'm Aya Al Rahman** ✨ _Laravel Developer_ ✨.
 
-Here are some ideas to get you started:
+Here are some information about me:
 
 - 🔭 I’m currently working on Trilum Soft.
 - 👯 I can analyze, design, and develop a web application.
