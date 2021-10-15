@@ -21,4 +21,4 @@ Here are some ideas to get you started:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayaomar123)](https://github.com/ayaomar123/github-readme-stats)
 
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=ayaomar123.visitor-badge
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=ayaomar123.ayaomar123
