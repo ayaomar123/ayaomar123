@@ -14,7 +14,6 @@ Here are some ideas to get you started:
 - 💬 Ask me about what you need.
 - 📫 How to reach me:
     - <a href="https://linktr.ee/AyaOmar" target="_blank">Linktree</a>
-    [go](http://stackoverflow.com){:target="_blank"}
 <!-- - ⚡ Fun fact: ... -->
 
 Github State
