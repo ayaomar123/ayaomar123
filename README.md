@@ -1,18 +1,24 @@
-### Hi there 👋
+class ayaomar123 extends Developer
+{
+    public String $name = "Aya Omar";
+    public String $position = "Laravel Developer";
 
+    public function knowledge()
+    {
+        return collect([
+            "Laravel"
+        ]);
+    }
 
-**Aya Al Rahman** is a ✨ _special_ ✨ person.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+    public function contacts()
+    {
+        return collect([
+            "twitter" => "https://twitter.com/Aya_Al_Rahmann",
+            "github" => "https://github.com/ayaomar123",
+        ]);
+    }
+}
+*******************
 
  [![ayaomar123's github stats](https://github-readme-stats.vercel.app/api?username=ayaomar123&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
  *******************
