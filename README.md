@@ -4,7 +4,7 @@
 
 ### **Laravel Developer | Expanding Expertise in .NET & Angular**
 
-<img src="aya.gif" alt="Aya Omar Animation" width="600"/>
+<img src="aya.gif" alt="Aya Omar Animation" width="600" style="max-width: 100%;"/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ayaomar123&label=Profile%20Views&color=e74430&style=for-the-badge)](https://github.com/ayaomar123)
 [![GitHub followers](https://img.shields.io/github/followers/ayaomar123?label=Followers&style=for-the-badge&color=e74430&logo=github)](https://github.com/ayaomar123)
@@ -150,26 +150,12 @@ class AyaAlRahman extends Developer
 <tr>
 <td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ayaomar123&count_private=true&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=E74430&icon_color=E74430&text_color=FFFFFF" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayaomar123&theme=radical&hide_border=true&background=0D1117&ring=E74430&fire=E74430&currStreakLabel=E74430" alt="GitHub Streak" width="400" />
 
 </td>
 <td width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayaomar123&theme=radical&hide_border=true&background=0D1117&ring=E74430&fire=E74430&currStreakLabel=E74430" alt="GitHub Streak" />
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayaomar123&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=E74430&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayaomar123&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=E74430&line=E74430&point=FFFFFF" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayaomar123&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=E74430&line=E74430&point=FFFFFF" alt="Contribution Graph" width="400" />
 
 </td>
 </tr>
@@ -183,7 +169,7 @@ class AyaAlRahman extends Developer
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ayaomar123&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ayaomar123)
+🏗️ *Trophies section temporarily unavailable - check back later!* 🏗️
 
 </div>
 
@@ -215,6 +201,6 @@ class AyaAlRahman extends Developer
 
 ### ⚡ *"Code is poetry, and I'm here to write masterpieces."* ⚡
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E74430&height=100&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E74430&height=100&section=footer" width="100%" />
 
 </div>
