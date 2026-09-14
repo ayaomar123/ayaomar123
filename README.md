@@ -1,6 +1,6 @@
 # Aya Al Rahman
 
-**Full-stack engineer.** I build multi-tenant business systems — Laravel APIs, Next.js dashboards, and the billing, permission and audit layers underneath them.
+**Full-Stack Engineer — Laravel & Next.js.** I build multi-tenant business systems: APIs, dashboards, and the billing, permission, audit and automation layers underneath them.
 
 Gaza · Backend-leaning full-stack · Arabic-first (RTL) products
 
@@ -10,11 +10,13 @@ Gaza · Backend-leaning full-stack · Arabic-first (RTL) products
 
 ## About
 
-Most of my work is the unglamorous half of a product: tenant isolation, role and permission models, subscription and invoice state, document verification workflows, audit trails, and the API surface a dashboard sits on. I spend real time on schema decisions, because those are the ones that are expensive to undo.
+I build the part of a product that is expensive to get wrong: tenant isolation, role and permission models, subscription and invoice state, document verification workflows, audit trails, and the API surface a dashboard sits on. Schema decisions get real time from me — they are the ones you cannot walk back cheaply.
 
-My primary stack is **Laravel (PHP 8.2 / Laravel 12)** with a **Next.js + TypeScript** frontend. I also build on **ASP.NET Core (.NET 8)** with Clean Architecture and **Angular** — several of those projects are public on this profile.
+Past the features, I build the machinery that keeps a system running without someone watching it: queued jobs and an outbox that drains notifications across email, SMS and WhatsApp; scheduled expiry, renewal and plan-limit reconciliation; custom-domain provisioning through Cloudflare; and deploy pipelines that verify what they shipped and can roll back.
 
-I use AI-assisted tooling as part of how I work, and I've shipped an in-product AI assistant with tool-calling and usage accounting. The architecture decisions — boundaries, schema, permissions, failure modes — stay mine.
+My primary stack is **Laravel (PHP 8.2 / Laravel 12)** with a **Next.js + TypeScript** frontend. I also build on **ASP.NET Core (.NET 8)** with Clean Architecture, CQRS and **Angular** — several of those projects are public on this profile. Most of what I ship is bilingual AR/EN with genuine RTL.
+
+Security is part of the feature, not a pass afterwards: passkeys, enumeration-resistant auth flows, rate limiting, encrypted secrets, authorised private file access — each with tests around it. I use AI-assisted tooling in my workflow and have shipped an in-product AI assistant with tool-calling and usage accounting. The architecture decisions — boundaries, schema, permissions, failure modes — stay mine.
 
 ## What I build
 
