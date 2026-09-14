@@ -1,206 +1,101 @@
-<div align="center">
+# Aya Al Rahman
 
-# 💎✨ Aya Al Rahman ✨💎
+**Full-stack engineer.** I build multi-tenant business systems — Laravel APIs, Next.js dashboards, and the billing, permission and audit layers underneath them.
 
-### **Laravel Developer | Expanding Expertise in .NET & Angular**
+Gaza · Backend-leaning full-stack · Arabic-first (RTL) products
 
-<img src="aya.gif" alt="Aya Omar Animation" width="600" style="max-width: 100%;"/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=ayaomar123&label=Profile%20Views&color=e74430&style=for-the-badge)](https://github.com/ayaomar123)
-[![GitHub followers](https://img.shields.io/github/followers/ayaomar123?label=Followers&style=for-the-badge&color=e74430&logo=github)](https://github.com/ayaomar123)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/ayaomar98) · [X](https://twitter.com/Aya_Al_RaHmaN) · [Links](https://linktr.ee/AyaOmar)
 
 ---
 
-<div align="center">
+## About
 
-## 🚀 Welcome to My Digital Space! 🚀
+Most of my work is the unglamorous half of a product: tenant isolation, role and permission models, subscription and invoice state, document verification workflows, audit trails, and the API surface a dashboard sits on. I spend real time on schema decisions, because those are the ones that are expensive to undo.
 
-</div>
+My primary stack is **Laravel (PHP 8.2 / Laravel 12)** with a **Next.js + TypeScript** frontend. I also build on **ASP.NET Core (.NET 8)** with Clean Architecture and **Angular** — several of those projects are public on this profile.
 
-<table>
-<tr>
-<td width="50%">
+I use AI-assisted tooling as part of how I work, and I've shipped an in-product AI assistant with tool-calling and usage accounting. The architecture decisions — boundaries, schema, permissions, failure modes — stay mine.
 
-I'm **Aya Al Rahman**, a dedicated and forward-thinking **Laravel Developer** with a relentless drive to grow, create, and innovate.
+## What I build
 
-Currently mastering **.NET** and **Angular** to become a **powerful full-stack force**. I'm not just learning — I'm building with intention, curiosity, and a hunger to push boundaries.
+| | |
+| --- | --- |
+| **Multi-tenant SaaS** | Subdomain and customer-owned domain tenancy, plan limits, subscriptions, invoicing, payments |
+| **Business operations systems** | Leads pipelines, service requests, support ticketing, document verification workflows |
+| **REST APIs** | Token auth (Sanctum / JWT), role- and permission-scoped endpoints, rate limiting, validation |
+| **Admin dashboards** | Next.js / React and Angular, bilingual AR/EN with genuine RTL |
+| **Relational data models** | Normalised schemas, migration-driven change, soft deletes, indexing |
+| **Deployment & CI** | GitHub Actions, SSH deploys with rollback and post-deploy verification |
 
-</td>
-<td width="50%">
+## Tech stack
 
-```php
-<?php
+| Area | |
+| --- | --- |
+| **Backend** | PHP 8.2 · Laravel 12 · Sanctum — C# · ASP.NET Core 8 · EF Core · MediatR (CQRS) |
+| **Frontend** | TypeScript · Next.js 16 · React 19 · Tailwind CSS — Angular 17+ |
+| **Data** | MySQL · SQL Server · SQLite · queues, jobs and cache-backed reads |
+| **Infrastructure** | Linux · Nginx · Docker · GitHub Actions · Cloudflare (DNS, SaaS custom domains) · S3-compatible storage |
+| **Testing** | PHPUnit feature and unit suites · .NET test projects |
+| **AI** | AI-assisted development · product-side assistant features (tool-calling, usage limits) |
 
-class AyaAlRahman extends Developer
-{
-    public $passion = "Backend Magic";
-    public $mission = "Full-Stack Excellence";
-    public $status = "Always Learning 🚀";
-}
-```
+## Featured work
 
-</td>
-</tr>
-</table>
+### Mirsam — multi-tenant real-estate SaaS
 
----
+*Live product · source is private*
 
-<div align="center">
+A platform for real-estate agencies. Each agency runs as an isolated tenant on a subdomain or on its own custom domain, with property and unit listings, a leads pipeline, marketing and landing pages, service requests, support ticketing, and its own billing.
 
-## 💼 About Me
+- **Tenancy** — single-database tenancy with subdomain resolution, plus customer-owned domains provisioned through Cloudflare SaaS (DNS review, binding progress, media hostnames)
+- **Access control** — roles, a permission catalogue, and per-user permission overrides scoped per agency
+- **Billing** — plans with enforced limits, add-ons, subscriptions and upgrades, invoices, discounts, taxes, payments
+- **Trust & compliance** — configurable verification requirements with document submission, expiry and renewal tracking; geo-aware audit logging
+- **Security** — WebAuthn passkeys, login-enumeration protection, rate limiting, reCAPTCHA, encrypted settings secrets, private S3-backed file access
+- **Delivery** — 180+ migrations, 40+ service classes, 60 feature test classes, and a GitHub Actions deploy that verifies the server is actually running the commit it deployed
 
-</div>
+`Laravel 12` `Next.js 16` `React 19` `TypeScript` `Tailwind 4` `MySQL` `S3` `Cloudflare` `GitHub Actions`
 
-<table>
-<tr>
-<td>
+[getmirsam.com](https://getmirsam.com)
 
-- 🔭 **Currently:** Crafting solutions at **Trilum Soft**
-- 🛠 **Expertise:** Analyzing, designing & building scalable web applications
-- 🧩 **Approach:** Creativity + Clarity + Strong Logic
-- ⚙️ **Experience:** Proven track record as **Backend Laravel Developer**
-- ✨ **Philosophy:** Clean code, testable solutions, elegant delivery
-- 🌐 **Growth:** Actively mastering **.NET** & **Angular** for full-stack versatility
+### Laravel SaaS — single-database multi-tenancy
 
-</td>
-</tr>
-</table>
+A working reference for domain-based tenancy in Laravel: tenant resolution from the request host, a global scope that isolates every query, Sanctum auth over HttpOnly cookies, and a documented API surface with production Nginx notes.
 
----
+`Laravel 11` `Sanctum` `REST` `Multi-tenancy`
 
-<div align="center">
+[Repository →](https://github.com/ayaomar123/Laravel-saas)
 
-## 🛠 Tech Stack & Tools
+### SupportApp — .NET 8 support ticketing
 
-</div>
+Ticketing system built as an ASP.NET Core Web API on Clean Architecture (Domain / Application / Infrastructure / Api) with an Angular client. Role-based access across Admin, Manager and Client, file attachments, email and SMS notifications, EF Core persistence, Docker Compose for local runs, and a test project wired into GitHub Actions.
 
-<table>
-<tr>
-<td align="center" width="25%">
-<h3>🎯 Backend</h3>
-</td>
-<td align="center" width="25%">
-<h3>🎨 Frontend</h3>
-</td>
-<td align="center" width="25%">
-<h3>💾 Database</h3>
-</td>
-<td align="center" width="25%">
-<h3>🔧 Tools</h3>
-</td>
-</tr>
-<tr>
-<td align="center">
+`.NET 8` `Clean Architecture` `EF Core` `Angular` `Docker`
 
-![Laravel](https://img.shields.io/badge/Laravel-E74430?style=for-the-badge&logo=laravel&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+[Repository →](https://github.com/ayaomar123/SupportApp)
 
-</td>
-<td align="center">
+### NCS — .NET 8 charity platform
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+Public appeals and blog, plus a JWT-protected admin surface. CQRS with MediatR, EF Core code-first against SQL Server, FluentValidation, Serilog and Swagger; Angular standalone components with Tailwind on the frontend. Payments are deliberately stubbed behind an `IPaymentProvider` interface for phase two, and the README says so rather than implying otherwise.
 
-</td>
-<td align="center">
+`.NET 8` `CQRS / MediatR` `EF Core` `Angular` `Tailwind`
 
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+[Repository →](https://github.com/ayaomar123/ncs)
 
-</td>
-<td align="center">
+**Also public:** [orphans-system](https://github.com/ayaomar123/orphans-system) (.NET 8 Clean Architecture + Angular 17) · [AspCleanArchitectureRealestate](https://github.com/ayaomar123/AspCleanArchitectureRealestate) (layered ASP.NET Core real-estate system)
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+## Engineering focus
 
-</td>
-</tr>
-</table>
+- Multi-tenant architecture and data isolation
+- Permission models that survive real organisational structures
+- Subscription and invoice state that stays correct through upgrades, expiry and renewal
+- API and schema design that stays cheap to change
+- Bilingual AR/EN products with real RTL, not mirrored CSS
+- CI/CD that verifies what it deployed, and can roll back
 
----
+## Currently
 
-<div align="center">
+Building Mirsam — custom-domain provisioning, an in-product AI assistant, and analytics integration. Currently at Trilum Soft.
 
-## 📫 Let's Connect & Collaborate
+## Contact
 
-[![Linktree](https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/AyaOmar)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Aya_Al_Rahmann)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayaomar123)
-
-</div>
-
----
-
-<div align="center">
-
-## 📊 GitHub Insights & Statistics
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayaomar123&theme=radical&hide_border=true&background=0D1117&ring=E74430&fire=E74430&currStreakLabel=E74430" alt="GitHub Streak" width="400" />
-
-</td>
-<td width="50%">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayaomar123&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=E74430&line=E74430&point=FFFFFF" alt="Contribution Graph" width="400" />
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## 🏆 GitHub Trophies
-
-🏗️ *Trophies section temporarily unavailable - check back later!* 🏗️
-
-</div>
-
----
-
-<div align="center">
-
-## 🧠 Tech Passion. Real Impact.
-
-</div>
-
-<table>
-<tr>
-<td align="center">
-
-> 💡 **I don't just write code — I craft meaningful solutions.**
-> 
-> 🚀 **My journey is about depth, excellence, and staying at the edge of technology.**
-> 
-> 💻 **Whether it's back-end logic or front-end magic, I build with purpose, clarity, and care.**
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-### ⚡ *"Code is poetry, and I'm here to write masterpieces."* ⚡
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E74430&height=100&section=footer" width="100%" />
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/ayaomar98) · [X](https://twitter.com/Aya_Al_RaHmaN) · [All links](https://linktr.ee/AyaOmar)
